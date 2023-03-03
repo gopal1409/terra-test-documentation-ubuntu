@@ -27,4 +27,9 @@ apt install golang-go
    36  terraform apply
    ####once apply finish wait for 3 minit
    copy the public ip:8080
-   
+   ###do git pull
+   93  git pull
+   97  go mod init
+   109  go mod tidy
+    110  go test -v
+  111  go test -v -run TestTerraformHelloWorldExample
