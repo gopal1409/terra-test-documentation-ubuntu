@@ -20,3 +20,11 @@ apt install golang-go
    ###configure aws clie
    aws configure
    
+   ##3inside the vm we will clone our git repo
+ 33  git clone https://github.com/gopal1409/cloud4cterraform-aws-23.git
+   34  cd cloud4cterraform-aws-23/
+   35  terraform init
+   36  terraform apply
+   ####once apply finish wait for 3 minit
+   copy the public ip:8080
+   
